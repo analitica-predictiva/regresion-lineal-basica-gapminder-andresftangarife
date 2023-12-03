@@ -53,13 +53,13 @@ def pregunta_02():
     print(df.shape)
 
     # Imprima la correlación entre las columnas `life` y `fertility` con 4 decimales.
-    print(print(f"{df['life'].corr(df['fertility']):.4f}"))
+    print(f"{df['life'].corr(df['fertility']):.4f}")
 
     # Imprima la media de la columna `life` con 4 decimales.
-    print(print(f"{df.life.mean():.4f}"))
+    print(f"{df.life.mean():.4f}")
 
     # Imprima el tipo de dato de la columna `fertility`.
-    print(print(type(df.fertility)))
+    print(type(df.fertility))
 
     # Imprima la correlación entre las columnas `GDP` y `life` con 4 decimales.
     print(f"{df['life'].corr(df['GDP']):.4f}")
